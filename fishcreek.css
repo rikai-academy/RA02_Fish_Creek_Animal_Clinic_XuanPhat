@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #5280c5;
+  color: #003366;
+  font-family: Verdana, Arial, sans-serif;
+  background-image: url('./image/gradientblue.jpg');
+}
+header {
+  background-color: #000066;
+  color: #f0f0f0;
+  background-image: url('./image/bigfish.gif');
+  background-position: center;
+  background-size: auto;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+h1 {
+  line-height: 250%;
+  text-indent: 1em;
+  margin: 0;
+  font-size: 3em;
+  padding: 0.2em;
+  text-shadow: #cccccc;
+}
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+}
+nav {
+  float: left;
+  font-weight: bold;
+
+  width: 180px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  list-style: none;
+}
+nav a:link {
+  color: #3262a3;
+}
+nav a:hover {
+  color: #cccccc;
+}
+nav a:visited {
+  color: #6699ff;
+}
+
+main {
+  padding-right: 2em;
+  padding-left: 2em;
+  background-color: white;
+  border: 1px solid #aec3e3;
+}
+main dt {
+  color: #5280c5;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+main ul li strong {
+  color: #5280c5;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+main ul {
+  list-style-type: none;
+}
+
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  background-color: #aec3e3;
+  padding: 1em;
+  margin-left: 180px;
+}
+#wrapper {
+  min-width: 700px;
+  width: 80%;
+  margin: 0 auto;
+}
+header,
+nav,
+main,
+footer {
+  display: block;
+}
+img {
+  border: none;
+}
